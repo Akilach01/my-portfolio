@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="changes to work section">
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="starting projects section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738610732532</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="starting projects section">
+      <option name="closed" value="true" />
+      <created>1738830284078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738830284078</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +189,7 @@
     <MESSAGE value="updates to home section" />
     <MESSAGE value="few changes done" />
     <MESSAGE value="changes to work section" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to work section" />
+    <MESSAGE value="starting projects section" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting projects section" />
   </component>
 </project>
