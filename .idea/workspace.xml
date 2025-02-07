@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" changes to skills part">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" about section completed">
+      <change afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738913186033</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=" about section completed">
+      <option name="closed" value="true" />
+      <created>1738914888561</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738914888561</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +245,7 @@
     <MESSAGE value=" changes to about section" />
     <MESSAGE value=" changes implemented" />
     <MESSAGE value=" changes to skills part" />
-    <option name="LAST_COMMIT_MESSAGE" value=" changes to skills part" />
+    <MESSAGE value=" about section completed" />
+    <option name="LAST_COMMIT_MESSAGE" value=" about section completed" />
   </component>
 </project>
