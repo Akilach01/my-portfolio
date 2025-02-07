@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" gallery section started">
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" assignments section started">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +223,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738915995613</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=" gallery section completed">
+      <option name="closed" value="true" />
+      <created>1738916578072</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738916578072</updated>
+    </task>
+    <task id="LOCAL-00021" summary=" assignments section started">
+      <option name="closed" value="true" />
+      <created>1738916824936</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738916824936</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +272,8 @@
     <MESSAGE value=" changes to skills part" />
     <MESSAGE value=" about section completed" />
     <MESSAGE value=" gallery section started" />
-    <option name="LAST_COMMIT_MESSAGE" value=" gallery section started" />
+    <MESSAGE value=" gallery section completed" />
+    <MESSAGE value=" assignments section started" />
+    <option name="LAST_COMMIT_MESSAGE" value=" assignments section started" />
   </component>
 </project>
