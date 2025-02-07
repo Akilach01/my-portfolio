@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" changes to about section">
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" changes implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738831446024</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" changes implemented">
+      <option name="closed" value="true" />
+      <created>1738912688929</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912688929</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +228,7 @@
     <MESSAGE value=" projects section done" />
     <MESSAGE value="about section starts" />
     <MESSAGE value=" changes to about section" />
-    <option name="LAST_COMMIT_MESSAGE" value=" changes to about section" />
+    <MESSAGE value=" changes implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value=" changes implemented" />
   </component>
 </project>
