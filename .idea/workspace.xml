@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="starting projects section">
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment=" changes to about section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,9 @@
     &quot;accountId&quot;: &quot;c005fd8f-6516-4402-97b5-71a78298220c&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -164,7 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738830284078</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=" projects section done">
+      <option name="closed" value="true" />
+      <created>1738831070843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738831070843</updated>
+    </task>
+    <task id="LOCAL-00014" summary="about section starts">
+      <option name="closed" value="true" />
+      <created>1738831303860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738831303860</updated>
+    </task>
+    <task id="LOCAL-00015" summary=" changes to about section">
+      <option name="closed" value="true" />
+      <created>1738831446024</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738831446024</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +218,9 @@
     <MESSAGE value="few changes done" />
     <MESSAGE value="changes to work section" />
     <MESSAGE value="starting projects section" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting projects section" />
+    <MESSAGE value=" projects section done" />
+    <MESSAGE value="about section starts" />
+    <MESSAGE value=" changes to about section" />
+    <option name="LAST_COMMIT_MESSAGE" value=" changes to about section" />
   </component>
 </project>
