@@ -100,8 +100,10 @@ transition: 0.5s ease;
 }
 
 /* Social Media Links */
-.social-media-links {
+.social-media-links a{
     margin-top: 20px;
+    width: 50px;
+    height: 50px;
     
 }
 
@@ -245,6 +247,17 @@ transition: 0.5s ease;
 #about h1 {
     font-size: 35px;
     margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#about ol {
+    margin-left: 10px; /* Indent ordered list */
+}
+
+#about img {
+    width: 50px; /* Set a uniform size for logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Space around images */
 }
 
 
@@ -366,42 +379,45 @@ transition: 0.5s ease;
     font-size: 35px;
     margin-bottom: 30px;
 }
+#contact h3 {
+    font-size: 25px;
+}
 
 #contact p {
+    font-size: 20px;
     color: white; 
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6; 
 }
 
 #contact img {
-    width: 20px; /* Smaller icons */
-    height: auto; /* Maintain aspect ratio */
+    width: 35px; 
+    height: auto; 
     margin-right: 10px; /* Space between icon and text */
 }
 
 #contact div {
-    margin-bottom: 20px; /* Space between different sections */
+    margin-bottom: 20px; 
 }
 
-#contact a {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline */
+#contact a img{
+ width: 50px;
+ height: auto;      
 }
 
-#contact a:hover {
-    text-decoration: underline; /* Underline on hover */
+#contact a img:hover {
+    transform: scale(1.05);   
 }
 
 button {
-    background-color: #28a745; /* Green background for button */
-    color: #fff; /* White text */
-    border: none; /* Remove border */
+    background-color: #28a745; /* Green background for buttons */
+    color: #fff; 
     padding: 10px 20px; /* Padding inside button */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 
