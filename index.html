@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
-
+        
         <link rel="stylesheet" href="styles/styles.css">
-
+        <link rel="icon" type="image/jpg" href="assets/images/logo AK.jpg">
 </head>
 
 <body>
@@ -19,8 +19,8 @@
             <li><a href="work">Work</a></li>
             <li><a href="about">About</a></li>
             <li><a href="assignments">Assignments</a></li>
-            <li><a href="gallery">gallery</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="gallery">Gallery</a></li>
+            <li class="contac"><a href="contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -29,13 +29,14 @@
 
 
 <section id="home">
-    <img src="assets/images/my%20photo%20blue%20&%20red%20.jpg" alt="my profile picture">
-    <button>More about me -></button>
-    <h1>Hello it's me<br></h1>
+
+    <div class="left">
+        
+    <h1>Hello it's me</h1>
     <h2>Akila <span> chamara </span>!</h2>
     <p>A passionate software developer and problem-solver.<br>"I turn ideas into reality with code."</p>
 
-    <div class="social media links">
+    <div class="social-media-links">
         <a href="linkedin">LinkedIn</a>
         <a href="github">GitHub</a>
         <a href="facebook">Facebook</a>
@@ -43,7 +44,15 @@
         <a href="instagram">Instagram</a>
         <a href="adobe stock">AdobeStock</a>
     </div>
-    <button>Download CV </button>
+   <div id="download">
+    <button >Download CV </button>
+   </div>
+</div>
+    <div class="right">
+        <img src="assets/images/my%20photo%20blue%20&%20red%20.jpg" alt="my profile picture">
+    <button>More about me -></button>
+    </div>
+  
 </section>
 
 
@@ -54,17 +63,17 @@
     <div>
         <div class="projects">
             <h2>Tic Tac Toe Game</h2>
-            <img src="assets/tic tac toe.jpg" alt="tic tac toe game image">
+            <img src="assets/images/tic tac toe img.jfif" alt="tic tac toe game image">
             <p>I developed a classic Tic Tac Toe game with a clean and interactive user interface using  java. The game features  single-player mode, with a basic AI opponent and MInMax algorithm</p>
         </div>
         <div>
             <h2>JourneyHub Railway Management System</h2>
-            <img src="assets/railway.jpg" alt="railway management system image">
+            <img src="assets/images/screenshot jh railway login.jpg" alt="railway management system image">
             <p>JourneyHub is an advanced railway management platform designed to streamline and modernize railway operations. </p>
         </div>
         <div>
             <h2>Personal website</h2>
-            <img src="assets/personal portfolio.jpg" alt="personal portfolio image">
+            <img src="assets/images/Screenshot portfolio home.jpg" alt="personal portfolio image">
             <p>I created a personal portfolio website to showcase my skills  in web development, design principles, and attention to detail in crafting engaging digital experiences.</p>
         </div>
     </div>
@@ -153,20 +162,20 @@
 
 <section id="gallery">
     <h1>Gallery</h1>
-    <div class="gallery-item">
+    <div class="gallery-item1">
         <h2>AI Arts</h2>
         <img src="assets/images/Absolute_Reality_v16_A_portrait_of_a_suprised_childs_face_illu_1-transformed.jpeg" alt="exited boy smiling">
         <br>
         <img src="assets/images/tiger%20closeup%20AI.jpg" alt=" detailed leopared image">
     </div>
 
-    <div class="gallery-item">
+    <div class="gallery-item2">
         <h2>Mobile Photography</h2>
         <img src="assets/images/epicia%2020230704_181639.jpg" alt="small plant closeup">
         <img src="assets/images/nest%2020230704_181440.jpg" alt="bird nest in woods">
         <br>
-        <img src="assets/images/photo.jpg" alt="mobile photography">
-        <img src="assets/images/photo.jpg" alt="mobile photography">
+        <img src="assets/images/nest 20230704_181440.jpg" alt="mobile photography">
+        <img src="assets/images/epicia 20230704_181639.jpg" alt="mobile photography">
     </div>
     <button>see more-></button>
 </section>
@@ -200,6 +209,11 @@
         <button>Send</button>
     </div>
 </section>
+
+
+<footer>
+    <p>© 2025 All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
