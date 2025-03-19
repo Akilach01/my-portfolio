@@ -11,6 +11,8 @@ body {
 /* Navigation Bar */
   nav {
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #1f1f1f;
@@ -77,7 +79,7 @@ transition: 0.5s ease;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 150px 150px;
+    padding: 100px 150px ;
     max-width: 1200px;
     margin: auto;
 }
@@ -86,14 +88,14 @@ transition: 0.5s ease;
 #home h1 {
     font-size: 32px;
     margin-bottom: 10px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 #home h2 {
     font-size: 50px;
     font-weight: bold;
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 #home span {
@@ -104,7 +106,7 @@ transition: 0.5s ease;
     font-size: 19px;
     margin-top: 4px;
     color: #cccccc;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 /* Social Media Links */
@@ -113,7 +115,7 @@ transition: 0.5s ease;
     width: 50px;
     height: auto;
     display: inline-block;
-    margin-left: 90px;
+    margin-left: 57px;
     margin-top: 5px;
     padding: 5px;
    
@@ -159,8 +161,8 @@ transition: 0.5s ease;
 
 #home .left #download{
    position: absolute;
-   top: 610px;
-   left: 260px;
+   top: 505px;
+   left: 225px;
 
 }
 
@@ -169,7 +171,33 @@ transition: 0.5s ease;
 }
 
 /* Right Side (Profile Image & More About Me Bu+tton) */
-#home .right img {
+
+/* #home .right{
+    position: absolute;
+    width:150px ;
+    height: 150px;
+    right: 100px;
+    top: 150px; 
+    margin-right: auto;
+}
+
+#home .right img{
+    height: 100%;
+    position: absolute;
+    right: 100px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.right .bgshape:hover{
+    bottom: 40px;
+}
+.right .profilepic:hover{
+    left: 45%;
+} */
+
+
+#home .right .profilepic{
     width: 300px;
     height: 350px;
     border-radius: 50%;
