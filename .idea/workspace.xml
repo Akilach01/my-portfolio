@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="styles changed" />
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="new styles added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -332,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741945645211</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="structure has changed">
+      <option name="closed" value="true" />
+      <created>1741975467552</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1741975467552</updated>
+    </task>
+    <task id="LOCAL-00035" summary="new styles added">
+      <option name="closed" value="true" />
+      <created>1741975502871</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1741975502871</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,8 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="image directory added" />
-    <MESSAGE value="updates to home section" />
     <MESSAGE value="few changes done" />
     <MESSAGE value="changes to work section" />
     <MESSAGE value="starting projects section" />
@@ -372,6 +386,8 @@
     <MESSAGE value="  some styles implemented" />
     <MESSAGE value=" changes to html" />
     <MESSAGE value="styles changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles changed" />
+    <MESSAGE value="structure has changed" />
+    <MESSAGE value="new styles added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new styles added" />
   </component>
 </project>

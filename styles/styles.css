@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f1f1f;
-    padding: 20px;
+    padding: 5px;
 }
 
 nav img {
@@ -84,14 +84,15 @@ transition: 0.5s ease;
 
 /* Left Side Content */
 #home h1 {
-    font-size: 20px;
+    font-size: 32px;
     margin-bottom: 10px;
     margin-left: 100px;
 }
 
 #home h2 {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
+    margin-top: 5px;
     margin-left: 100px;
 }
 
@@ -100,8 +101,8 @@ transition: 0.5s ease;
 }
 
 #home p {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 19px;
+    margin-top: 4px;
     color: #cccccc;
     margin-left: 100px;
 }
@@ -109,21 +110,24 @@ transition: 0.5s ease;
 /* Social Media Links */
 
 #home .left .social-media-links a img{
-    margin-top: 20px;
-    width: 20px;
+    width: 50px;
     height: auto;
-    
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 5px;
+    padding: 5px;
+   
 }
 
-.social-media-links a {
+/* .social-media-links a {
     display: inline-block;
     margin-right: 20px;
     margin-left: 100px;
-    margin-top: 20px;
-}
+    margin-top: 2px;
+} */
 
-.social-media-links a:hover {
-   transform: scale(00.5s);
+.social-media-links a img:hover {
+   transform: scale(1.2);
 }
 
 /* Download CV Button */
@@ -140,7 +144,8 @@ transition: 0.5s ease;
 }
 
 #download button img{
-    width: 20px;
+    display: inline;
+    width: 16px;
     height: auto;
 }
 
@@ -154,8 +159,8 @@ transition: 0.5s ease;
 
 #home .left #download{
    position: absolute;
-   top: 550px;
-   left: 255px;
+   top: 610px;
+   left: 260px;
 
 }
 
@@ -164,7 +169,7 @@ transition: 0.5s ease;
 }
 
 /* Right Side (Profile Image & More About Me Bu+tton) */
-#home img {
+#home .right img {
     width: 300px;
     height: 350px;
     border-radius: 50%;
@@ -172,6 +177,7 @@ transition: 0.5s ease;
     border: 3px solid #ffcc00;
     display: block;
     margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgb(141, 139, 139);
 }
 
 #home button {
@@ -197,8 +203,8 @@ transition: 0.5s ease;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -226,7 +232,7 @@ transition: 0.5s ease;
    align-items: center;
    flex-direction: column;
    padding: 40px;
-   transition: 0.5s;
+   transition: 1s;
 }
 
 #work .projects .card-1 .img,
@@ -241,11 +247,11 @@ transition: 0.5s ease;
     transform: scale(1.2);
     box-shadow: 0px 1px 12px #ffffff;
 }
-#work .work-body .card-2:hover{
+#work .card-2:hover{
     transform: scale(1.2);
     box-shadow: 0px 1px 12px #ffffff;
 }
-#work .work-body .card-3:hover{
+#work  .card-3:hover{
     transform: scale(1.2);
     box-shadow: 0px 1px 12px #ffffff;
 }
