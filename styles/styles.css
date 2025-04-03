@@ -410,16 +410,19 @@ transition: 0.5s ease;
 
 #assignments h1 {
     font-size: 35px;
+    padding-top: 0;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 /* assignment Cards */
 #assignments .assignment {
     display: flex; 
-    margin-top: 10px;
+    margin-top: 5px;
      justify-content: center;
      align-items: center;
-    gap: 100px; /* Space between cards */
+     text-align: center;
+    gap: 50px; /* Space between cards */
 }
 
 #assignments .assignment .topic-1
@@ -430,18 +433,44 @@ transition: 0.5s ease;
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
+   text-align: center;
    padding: 40px;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#assignments .assignment .topic-1:hover
-#assignments .assignment .topic-2:hover
-#assignments .assignment .topic-3:hover
-#assignments .assignment .topic-4:hover
+#assignments .assignment .topic-1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 8px #ffffff;
+}
+#assignments .assignment .topic-2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 8px #ffffff;
+}
+#assignments .assignment .topic-3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 8px #ffffff;
+}
+#assignments .assignment .topic-4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 8px #ffffff;
+}
 #assignments .assignment .topic-5:hover{
     transform: scale(1.1);
-    box-shadow: 0px 1px 10px #ffffff;
+    box-shadow: 0px 1px 8px #ffffff;
+}
+
+
+#assignments>button {
+    background-color: #28a745; /* Green background for buttons */
+    color: #fff; 
+    bottom: 0;
+    margin-top: 30px;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+#assignments>button:hover {
+    background-color: #218838; 
 }
 
 
@@ -450,7 +479,8 @@ transition: 0.5s ease;
 
 #gallery{
     text-align: center;
-    padding: 50px ;
+    padding: 30px ;
+    margin-bottom: 5px;
     background: linear-gradient(90deg, #2f2f2f, #3d3d3d, #6b3d8c);
 }
 
@@ -481,7 +511,8 @@ transition: 0.5s ease;
   #gallery>button {
     background-color: #28a745; /* Green background for buttons */
     color: #fff; 
-    padding: 10px 20px; /* Padding inside button */
+    bottom: 0;
+    padding: 10px 20px; 
     border-radius: 5px; 
     cursor: pointer; 
 }
