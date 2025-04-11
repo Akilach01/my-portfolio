@@ -625,6 +625,13 @@ button:hover {
     background-color: #218838; 
 }
 
+/* footer*/
+
+footer p{
+    text-align: center;  
+  }
+
+
 
 /*media queries*/
 
@@ -658,6 +665,16 @@ button:hover {
     #home {
         flex-direction: column;
         text-align: center;
+    }
+
+    #home h1, #home h2, #home p {
+        margin-left: 10px; /* changed from 60px */
+        font-size: 90%;
+    }
+    #home .left #download {
+        position: relative; /* changed from absolute */
+        left: 0;
+        top: 10px;
     }
 
     #home img {
@@ -695,6 +712,10 @@ button:hover {
     #gallery img{
         width: 50vw;
         height: auto;
+    }
+
+    .contact-form {
+        width: 40%; 
     }
 
 }
@@ -834,12 +855,23 @@ button:hover {
         width: 50%;
     }
 
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #assignments .assignment {
+        flex-direction: column;
+        gap: 20px;           /* reduced gap */
+
     #gallery img{
         width: 50vw;
         height: auto;
     }
 
 }
+ 
+ }
 
 
 @media screen and (max-width: 768px) {   /*tablet device*/
@@ -912,10 +944,163 @@ button:hover {
 
 }
 
+@media screen and (max-width: 1024px) {     /* laptop normal size*/
 
+    
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+    }
 
+    nav ul.active {
+        display: flex; /* Show menu when active */
+    }
 
+    nav ul li {
+        padding: 5px 0;
+    }
 
-footer p{
-  text-align: center;  
+    
+    #home h1, #home h2, #home p {
+        margin-left: 10px; /* changed from 60px */
+        font-size: 90%;
+    }
+    #home .left #download {
+        position: relative; /* changed from absolute */
+        left: 0;
+        top: 10px;
+    }
+
+    #home img {
+        width: 100px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .social-media-links {
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    button {
+        width: 10%;
+        padding: 10px;
+    }
+
+    #work .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #work .projects .card-1 .card-body,
+    #work .projects .card-2 .card-body,
+    #work .projects .card-3 .card-body{
+        width: 50px;
+        height: 50px;
+    }
+
+    .projects div {
+        width: 50%;
+    }
+
+    #gallery img{
+        width: 50vw;
+        height: auto;
+    }
+
+    .contact-form {
+        width: 40%; 
+    }
+
+}
+
+@media screen and (max-width: 1440px) {     /* laptop large size*/
+
+    
+    nav ul {
+        display: none; /* Hide menu initially */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    nav ul.active {
+        display: flex; /* Show menu when active */
+    }
+
+    nav ul li {
+        padding: 5px 0;
+    }
+
+    .hamburger {          /* Show Hamburger Icon */
+        display: block;
+    }
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home h1, #home h2, #home p {
+        margin-left: 10px; /* changed from 60px */
+        font-size: 90%;
+    }
+    #home .left #download {
+        position: relative; /* changed from absolute */
+        left: 0;
+        top: 10px;
+    }
+
+    #home img {
+        width: 100px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .social-media-links {
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    button {
+        width: 10%;
+        padding: 10px;
+    }
+
+    #work .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #work .projects .card-1 .card-body,
+    #work .projects .card-2 .card-body,
+    #work .projects .card-3 .card-body{
+        width: 50px;
+        height: 50px;
+    }
+
+    .projects div {
+        width: 50%;
+    }
+
+    #gallery img{
+        width: 50vw;
+        height: auto;
+    }
+
+    .contact-form {
+        width: 40%; 
+    }
+
 }
