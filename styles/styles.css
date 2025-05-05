@@ -389,12 +389,6 @@ transition: 0.5s ease;
 }
 
 
-
-
-
-
-
-
 /*assignments section*/
 
 #assignments{
@@ -668,13 +662,14 @@ footer p{
     }
 
     #home h1, #home h2, #home p {
-        margin-left: 10px; /* changed from 60px */
+        margin-left: 10px;   /* changed from 60px */
         font-size: 90%;
     }
     #home .left #download {
-        position: relative; /* changed from absolute */
+        position: relative;   /* changed from absolute */
         left: 0;
         top: 10px;
+         padding: 12px 18px;
     }
 
     #home img {
@@ -688,10 +683,18 @@ footer p{
         padding: 5px;
     }
 
-    button {
+    #home button {
         width: 10%;
         padding: 10px;
     }
+     #work h1 {
+        font-size: 22px;
+      }
+
+      .projects h2 {
+        font-size: 17px;
+      }
+
 
     #work .projects {
         flex-direction: column;
@@ -704,10 +707,37 @@ footer p{
         width: 50px;
         height: 50px;
     }
+    .projects .card-1 .card-body p,
+      .projects .card-2 .card-body p,
+      .projects .card-3 .card-body p {
+        font-size: 13px;
+        margin-top: 20px;
+      }
 
     .projects div {
         width: 50%;
     }
+
+     #assignments h1 {
+        font-size: 22px;
+      }
+
+      #assignments .assignment > div {
+        padding: 15px;
+      }
+
+      #assignments .assignment h2 {
+        font-size: 14px;
+      }
+
+      #assignments .assignment ul li {
+        font-size: 12px;
+      }
+
+      #assignments > button {
+        padding: 6px;
+        font-size: 14px;
+      }
 
     #gallery img{
         width: 50vw;
@@ -763,10 +793,16 @@ footer p{
         padding: 5px;
     }
 
-    button {
+    #home button {
         width: 10%;
         padding: 10px;
     }
+     #work h1 {
+        font-size: 24px;
+      }
+      .projects h2 {
+          font-size: 19px;
+        }
 
     #work .projects {
         flex-direction: column;
@@ -780,9 +816,36 @@ footer p{
         height: 50px;
     }
 
+     .projects .card-1 .card-body p,
+      .projects .card-2 .card-body p,
+      .projects .card-3 .card-body p {
+        font-size: 14px;
+      }
+
     .projects div {
         width: 50%;
     }
+
+     #assignments h1 {
+        font-size: 24px;
+      }
+
+      #assignments .assignment > div {
+        padding: 18px;
+      }
+
+      #assignments .assignment h2 {
+        font-size: 16px;
+      }
+
+      #assignments .assignment ul li {
+        font-size: 13px;
+      }
+
+      #assignments > button {
+        padding: 8px;
+        font-size: 15px;
+      }
 
     #gallery img{
         width: 50vw;
@@ -822,6 +885,10 @@ footer p{
         flex-direction: column;
         text-align: center;
     }
+    #home h1, #home h2, #home p {
+            margin-left: 10px;   /* changed from 60px */
+            font-size: 90%;
+        }
 
     #home img {
         width: 100px;
@@ -839,6 +906,13 @@ footer p{
         padding: 10px;
     }
 
+ #work h1 {
+    font-size: 26px;
+  }
+  .projects h2 {
+      font-size: 20px;
+    }
+
     #work .projects {
         flex-direction: column;
         align-items: center;
@@ -850,6 +924,12 @@ footer p{
         width: 10%;
         height: 50px;
     }
+    .projects .card-1 .card-body p,
+      .projects .card-2 .card-body p,
+      .projects .card-3 .card-body p {
+        font-size: 15px;
+        margin-top: 25px;
+      }
 
     .projects div {
         width: 50%;
@@ -863,14 +943,38 @@ footer p{
     #assignments .assignment {
         flex-direction: column;
         gap: 20px;           /* reduced gap */
+    }
+
+    #assignments {
+       padding: 30px 15px;
+     }
+
+     #assignments .assignment > div {
+       padding: 20px;
+     }
+
+     #assignments h1 {
+       font-size: 26px;
+     }
+
+     #assignments .assignment h2 {
+       font-size: 18px;
+     }
+
+     #assignments .assignment ul li {
+       font-size: 14px;
+     }
+
+     #assignments > button {
+       width: 100%;
+       font-size: 16px;
+     }
 
     #gallery img{
         width: 50vw;
         height: auto;
     }
 
-}
- 
  }
 
 
@@ -912,11 +1016,23 @@ footer p{
         border-radius: 50px;
     }
 
+     #home h1,
+      #home h2,
+      #home p {
+        margin-left: 0;
+      }
+
     .social-media-links {
         flex-direction: row;
     }
 
-    button {
+    #home .left,
+      #home .right {
+        align-items: center;
+        margin: 20px 0;
+      }
+
+    #home button {
         width: 20%;
         padding: 12px;
     }
@@ -924,7 +1040,13 @@ footer p{
     #work .projects {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
+
+    #work h1 {
+        font-size: 30px;
+        text-align: center;
+      }
 
     #work .projects .card-1 .card-body,
     #work .projects .card-2 .card-body,
@@ -932,10 +1054,32 @@ footer p{
         width: 50px;
         height: 50px;
     }
+    .projects .card-1 .card-body p,
+      .projects .card-2 .card-body p,
+      .projects .card-3 .card-body p {
+        font-size: 16px;
+        margin-top: 30px;
+      }
+
 
     .projects div {
         width: 50%;
     }
+
+     #assignments .assignment {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      #assignments .assignment > div {
+        flex-direction: column;
+        padding: 30px;
+        width: 90%;
+      }
+
+      #assignments h1 {
+        font-size: 30px;
+      }
 
     #gallery img{
         width: 50%;
@@ -944,163 +1088,4 @@ footer p{
 
 }
 
-@media screen and (max-width: 1024px) {     /* laptop normal size*/
 
-    
-    nav ul {
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: rgba(0, 0, 0, 0.9);
-        width: 100%;
-        text-align: center;
-        padding: 5px 0;
-    }
-
-    nav ul.active {
-        display: flex; /* Show menu when active */
-    }
-
-    nav ul li {
-        padding: 5px 0;
-    }
-
-    
-    #home h1, #home h2, #home p {
-        margin-left: 10px; /* changed from 60px */
-        font-size: 90%;
-    }
-    #home .left #download {
-        position: relative; /* changed from absolute */
-        left: 0;
-        top: 10px;
-    }
-
-    #home img {
-        width: 100px;
-        height: auto;
-        border-radius: 50px;
-    }
-
-    .social-media-links {
-        flex-direction: row;
-        padding: 5px;
-    }
-
-    button {
-        width: 10%;
-        padding: 10px;
-    }
-
-    #work .projects {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #work .projects .card-1 .card-body,
-    #work .projects .card-2 .card-body,
-    #work .projects .card-3 .card-body{
-        width: 50px;
-        height: 50px;
-    }
-
-    .projects div {
-        width: 50%;
-    }
-
-    #gallery img{
-        width: 50vw;
-        height: auto;
-    }
-
-    .contact-form {
-        width: 40%; 
-    }
-
-}
-
-@media screen and (max-width: 1440px) {     /* laptop large size*/
-
-    
-    nav ul {
-        display: none; /* Hide menu initially */
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: rgba(0, 0, 0, 0.9);
-        width: 100%;
-        text-align: center;
-        padding: 5px 0;
-    }
-
-    nav ul.active {
-        display: flex; /* Show menu when active */
-    }
-
-    nav ul li {
-        padding: 5px 0;
-    }
-
-    .hamburger {          /* Show Hamburger Icon */
-        display: block;
-    }
-
-    #home {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #home h1, #home h2, #home p {
-        margin-left: 10px; /* changed from 60px */
-        font-size: 90%;
-    }
-    #home .left #download {
-        position: relative; /* changed from absolute */
-        left: 0;
-        top: 10px;
-    }
-
-    #home img {
-        width: 100px;
-        height: auto;
-        border-radius: 50px;
-    }
-
-    .social-media-links {
-        flex-direction: row;
-        padding: 5px;
-    }
-
-    button {
-        width: 10%;
-        padding: 10px;
-    }
-
-    #work .projects {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #work .projects .card-1 .card-body,
-    #work .projects .card-2 .card-body,
-    #work .projects .card-3 .card-body{
-        width: 50px;
-        height: 50px;
-    }
-
-    .projects div {
-        width: 50%;
-    }
-
-    #gallery img{
-        width: 50vw;
-        height: auto;
-    }
-
-    .contact-form {
-        width: 40%; 
-    }
-
-}
