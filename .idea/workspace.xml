@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="new styles added">
+    <list default="true" id="add956c4-370d-4f78-b329-1ff07165573c" name="Changes" comment="new changes done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741975502871</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="new changes done">
+      <option name="closed" value="true" />
+      <created>1746428115628</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746428115628</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="few changes done" />
     <MESSAGE value="changes to work section" />
     <MESSAGE value="starting projects section" />
     <MESSAGE value=" projects section done" />
@@ -392,6 +398,7 @@
     <MESSAGE value="styles changed" />
     <MESSAGE value="structure has changed" />
     <MESSAGE value="new styles added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new styles added" />
+    <MESSAGE value="new changes done" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes done" />
   </component>
 </project>
